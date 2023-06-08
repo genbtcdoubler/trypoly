@@ -1,7 +1,7 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const protocolFeesCollector = "0xBA69c96515514Ab6A58B51cD5125a0fE55274CC3";
+  const protocolFeesCollector = "0xCd16000Da4D7A670AD2e03988E5cFfD11C34b6eE";
   const ProtocolFeesCollector = await ethers.getContractAt(
     "IProtocolFeesCollector",
     protocolFeesCollector
